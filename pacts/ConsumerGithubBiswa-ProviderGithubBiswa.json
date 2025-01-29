@@ -1,0 +1,81 @@
+{
+  "consumer": {
+    "name": "ConsumerGithubBiswa"
+  },
+  "interactions": [
+    {
+      "description": "GET REQUEST github",
+      "key": "289fdbb3",
+      "pending": false,
+      "providerStates": [
+        {
+          "name": "test github GET"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/users/BiswaranjanNayak01"
+      },
+      "response": {
+        "body": {
+          "content": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/120440057?v=4",
+            "bio": null,
+            "blog": "",
+            "company": null,
+            "created_at": "2022-12-13T04:35:24Z",
+            "email": null,
+            "events_url": "https://api.github.com/users/BiswaranjanNayak01/events{/privacy}",
+            "followers": 0,
+            "followers_url": "https://api.github.com/users/BiswaranjanNayak01/followers",
+            "following": 0,
+            "following_url": "https://api.github.com/users/BiswaranjanNayak01/following{/other_user}",
+            "gists_url": "https://api.github.com/users/BiswaranjanNayak01/gists{/gist_id}",
+            "gravatar_id": "",
+            "hireable": null,
+            "html_url": "https://github.com/BiswaranjanNayak01",
+            "id": 120440057,
+            "location": null,
+            "login": "BiswaranjanNayak01",
+            "name": null,
+            "node_id": "U_kgDOBy3E-Q",
+            "organizations_url": "https://api.github.com/users/BiswaranjanNayak01/orgs",
+            "public_gists": 0,
+            "public_repos": 11,
+            "received_events_url": "https://api.github.com/users/BiswaranjanNayak01/received_events",
+            "repos_url": "https://api.github.com/users/BiswaranjanNayak01/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/BiswaranjanNayak01/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/BiswaranjanNayak01/subscriptions",
+            "twitter_username": null,
+            "type": "User",
+            "updated_at": "2024-12-29T17:58:23Z",
+            "url": "https://api.github.com/users/BiswaranjanNayak01",
+            "user_view_type": "public"
+          },
+          "contentType": "application/json",
+          "encoded": false
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ]
+        },
+        "status": 200
+      },
+      "transport": "https",
+      "type": "Synchronous/HTTP"
+    }
+  ],
+  "metadata": {
+    "pact-jvm": {
+      "version": "4.6.8"
+    },
+    "pactSpecification": {
+      "version": "4.0"
+    }
+  },
+  "provider": {
+    "name": "ProviderGithubBiswa"
+  }
+}

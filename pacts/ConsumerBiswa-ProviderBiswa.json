@@ -1,0 +1,39 @@
+{
+  "consumer": {
+    "name": "ConsumerBiswa"
+  },
+  "interactions": [
+    {
+      "description": "GET REQUEST",
+      "providerStates": [
+        {
+          "name": "test GET"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/data"
+      },
+      "response": {
+        "body": {
+          "data": "response"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-jvm": {
+      "version": "4.6.8"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "ProviderBiswa"
+  }
+}

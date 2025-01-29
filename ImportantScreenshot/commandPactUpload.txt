@@ -1,0 +1,1 @@
+ pact-broker publish target/pacts/UserServiceClient-UserService.json --consumer-app-version=1.0.0 --broker-base-url=https://andolasoft.pactflow.io --broker-token=0n2qLV7daRXgyNZgWQ0n9w
